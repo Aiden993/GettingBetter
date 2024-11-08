@@ -1,0 +1,29 @@
+.g{
+  width: 35%;
+  aspect-ratio: 1/1;
+  background-color: blue;
+  min-height: 50vh;
+  display: inline-block;
+  position: absolute;
+}
+#a {
+  background-color: orange;
+  left: 60px;
+}
+
+#b {
+  background-color: greenyellow;
+  right: 900px;
+}
+
+#c {
+  background-color: yellow;
+  right: 80px;
+}
+#a:hover,#b:hover {
+  z-index: 999999 !important;
+}
+header,footer{
+  min-height: 10vh;
+  background-color: transparent;
+}
